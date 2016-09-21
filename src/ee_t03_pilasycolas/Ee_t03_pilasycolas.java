@@ -48,6 +48,7 @@ public class Ee_t03_pilasycolas<T>{
         Nodo<T> aux=inicio;
         
         if(inicio.getSiguiente()==null){
+            res = inicio.getDato();
             inicio=null;
         }
         else{
@@ -90,6 +91,7 @@ public class Ee_t03_pilasycolas<T>{
         Nodo<T> aux = inicio;
         
         if(inicio.getSiguiente()==null){
+            res=inicio.getDato();
             inicio=null;
         }
         else{
